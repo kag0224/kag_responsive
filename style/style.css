@@ -47,6 +47,28 @@ p {
   font-family: var(--default-font-family);
 }
 
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 72px;
+  line-height: 70px;
+}
+
+.about-section h2 {
+  font-size: 22px;
+}
+
+.about-section p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.about-section-content {
+  margin: 45px;
+}
+
 .contact-button {
   border-radius: 4px;
   font-size: 18px;
@@ -54,6 +76,16 @@ p {
   color: white;
   line-height: 27px;
   padding: 12px 20px;
+}
+
+.about-desserts {
+  border-radius: 4px;
+  font-size: 18px;
+  background: var(--tertiary-color);
+  color: white;
+  line-height: 27px;
+  padding: 12px 20px;
+  text-decoration: none;
 }
 
 .home-paragraph {
@@ -109,6 +141,12 @@ p {
   padding: 105px 0;
 }
 
+.baker {
+  max-width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
 @media (max-width: 900px) {
   .cake h1 {
     font-size: 50px;
@@ -116,6 +154,15 @@ p {
 
   h2 {
     font-size: 42px;
+  }
+
+  .about-section {
+    padding: 0;
+    text-align: center;
+  }
+
+  .about-section h1 {
+    font-size: 58px;
   }
 
   .cake {
