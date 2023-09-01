@@ -125,6 +125,15 @@ p {
   padding: 5px 5px;
 }
 
+.cookie-picture {
+  max-height: 72%;
+  max-width: 90%;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #f76b8a;
+  padding: 5px 5px;
+}
+
 .dessert-description {
   padding: 65px 0;
 }
