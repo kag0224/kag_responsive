@@ -27,7 +27,7 @@ nav li {
   display: inline;
   list-style: none;
   line-height: 42px;
-  margin-left: 15px;
+  margin-left: 25px;
 }
 
 nav ul {
@@ -76,7 +76,7 @@ nav h4 {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .content h1 {
@@ -95,6 +95,10 @@ nav h4 {
 
 .content {
   margin: 45px;
+}
+
+.content a {
+  color: var(--tertiary-color);
 }
 
 .contact-button {
@@ -174,6 +178,10 @@ nav h4 {
   max-width: 70%;
   display: block;
   margin: 0 auto;
+}
+
+.contact-icon {
+  color: var(--tertiary-color);
 }
 
 @media (max-width: 900px) {
