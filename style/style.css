@@ -23,6 +23,34 @@ p {
   line-height: 30px;
 }
 
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  text-decoration: underline;
+  color: var(--tertiary-color);
+}
+
+nav h4 {
+  line-height: 40px;
+}
+
 .cake {
   background: var(--secondary-color);
   text-align: center;
