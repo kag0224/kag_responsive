@@ -54,7 +54,7 @@ nav h4 {
 .cake {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 110px 20px;
 }
 
 .cake p {
@@ -75,8 +75,12 @@ nav h4 {
   font-family: var(--default-font-family);
 }
 
+.homepage-paragraph p {
+  font-size: 22px;
+}
+
 .content-container {
-  padding: 100px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -216,7 +220,7 @@ footer .contact-box p {
   margin: 0;
 }
 
-footer h5 {
+footer h3 {
   font-size: 44px;
 }
 
@@ -248,7 +252,7 @@ footer .social-links a:hover {
 
 @media (max-width: 900px) {
   .cake h1 {
-    font-size: 50px;
+    font-size: 52px;
   }
 
   h2 {
